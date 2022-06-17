@@ -1,0 +1,77 @@
+*{
+    padding: 15px;
+}
+
+div header img{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 600px;
+}
+
+div header{
+    margin-right: 25px;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+div header a{
+    text-decoration: none;
+    color: white; 
+    text-align: center;
+}
+div header a:hover{
+    background-color: darkslategray;
+    color: wheat;
+}
+ a:hover{
+    color:wheat;
+    transition: all 1s ease;
+}
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+}
+h1:hover{
+    color: wheat;
+    transition: all 1s ease;
+}
+
+.heading{
+    text-align: center;
+    padding-top: none;
+}
+.name,.number,.email,.college,.branch{
+    font-size: small;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    border-left: 5px solid aqua;
+    border-right: 5px solid aqua;
+}   
+.submit,.refresh{
+    color: aqua;
+    background-color: black;
+}
+
+footer a{
+    background-color: black;
+    text-align: end;
+}
+footer a:hover{
+    color: wheat;
+}
+footer {
+    background-color: black;
+    text-align:center;
+}
+footer img{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 480px;
+}
+footer div{
+    font-size:x-large ;
+    color: white;
+}

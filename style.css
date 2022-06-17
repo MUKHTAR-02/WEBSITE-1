@@ -1,0 +1,102 @@
+* {
+    padding: 15px;
+}
+
+div header img {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 600px;
+}
+
+div header {
+    background-color: black;
+    margin-right: 25px;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+}
+
+div header a {
+    text-decoration: none;
+    color: white;
+}
+
+div header a:hover {
+    background-color: darkslategrey;
+}
+
+a:hover {
+    color: wheat;
+    transition: all 1s ease;
+}
+
+h2 {
+    color: rgb(224, 229, 207);
+    font-family: serif;
+    text-align: center;
+    padding-top: 80px;
+    margin: 15px;
+}
+
+h2:hover {
+    color: wheat;
+}
+
+.background_img {
+    background-image: url(books\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.carousel-caption {
+    text-align: end;
+    color: white;
+    font-size: x-large;
+}
+
+.carousel-caption p:hover {
+    color: wheat;
+    transition: all 1s ease;
+}
+
+.carousel-caption :hover {
+    background-color:darkslategrey ;
+}
+
+footer a {
+    background-color: black;
+    text-align: end;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 480px;
+}
+
+footer div {
+    font-size: x-large;
+}
+
+h5 {
+    font-size: larger;
+}
+
+.top_products {
+    font-size: xx-large;
+    color: white;
+    font-family: serif;
+    text-align: center;
+    margin: 15px;
+}
+
+body{
+    background-color: grey;
+}

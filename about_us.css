@@ -1,0 +1,116 @@
+* {
+    padding: 15px;
+}
+
+div header img {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 600px;
+}
+
+div header {
+    background-color: black;
+    margin-right: 25px;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+}
+
+div header a {
+    text-decoration: none;
+    color: white;
+}
+
+div header a:hover {
+    background-color: darkslategray;
+    color: wheat;
+}
+
+a:hover {
+    color: wheat;
+    transition: all 1s ease;
+}
+
+h1 {
+    font-family: serif;
+    text-align: center;
+    padding-top: 70px;
+}
+
+h1:hover {
+    color: wheat;
+    transition: all 1s ease;
+}
+
+.background_img {
+    background-image: url(logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.lorem_1 {
+    color: white;
+    font-size: large;
+    font-family: 'monospace';
+    padding: 10px;
+    text-align: center;
+}
+
+.lorem_1:hover {
+    color: wheat;
+    background-color: darkslategray;
+    transition: all 1s ease;
+}
+
+.lorem_2 {
+    color: white;
+    font-size: large;
+    font-family: 'monospace';
+    padding: 10px;
+    text-align: center;
+}
+
+.lorem_2:hover {
+    color: wheat;
+    background-color: darkslategray;
+    transition: all 1s ease;
+}
+
+.home {
+    color: aliceblue;
+    font-size: large;
+    font-family: 'monospace';
+    word-spacing: 10px;
+    text-align: center;
+}
+
+.home:hover {
+    color: wheat;
+    font-size: x-large;
+}
+
+footer a {
+    background-color: black;
+    text-align: end;
+}
+
+footer a:hover {
+    color: wheat;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 480px;
+}
+
+footer div {
+    font-size: x-large;
+    color: white;
+}

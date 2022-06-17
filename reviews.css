@@ -1,0 +1,88 @@
+*{
+    padding: 15px;
+}
+
+div header img{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 600px;
+}
+
+div header{
+    background-color: black;
+    margin-right: 25px;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+}
+div header a{
+    text-decoration: none;
+    color: white; 
+}
+div header a:hover{
+    background-color: darkslategrey;
+    color: wheat;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+h1:hover{
+    color: wheat;
+    transition: all 1s ease;
+}
+a:hover{
+    color: wheat;
+    transition: all 1s ease;
+}
+
+
+p{
+    padding: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: large;
+}
+.add_reviews p{
+    text-align: center;
+    font-size: x-large;
+    color: wheat;
+}
+.add_reviews p a{
+    color: wheat;
+    font-size: large;
+}
+.add_reviews:hover a{
+      color: aqua;
+}
+
+img{
+    width: 20%;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 20px;
+}
+footer a{
+    background-color: black;
+    text-align: end;
+}
+footer a:hover{
+    color: wheat;
+}
+footer {
+    background-color: black;
+    text-align:center;
+}
+footer img{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 480px;
+}
+footer div{
+    font-size:x-large ;
+}
